@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "6c841be3-7803-48b7-a3da-9386daf1b9dc",
+		"name": "HW15Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43886538",
+		"_collection_link": "https://innokenty-2656670.postman.co/workspace/Innokenty's-Workspace~f2423a00-71b0-4fb0-87aa-a42ac230ada2/collection/43886538-6c841be3-7803-48b7-a3da-9386daf1b9dc?action=share&source=collection_link&creator=43886538"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3555/accounts",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"TonyDog\",\r\n  \"password\": \"bone5678\",\r\n  \"email\": \"TonyBean@dogmail.com\",\r\n  \"birthdate\": \"2011-04-07\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3555/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3555",
+					"path": [
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3555/accounts",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"CatSquashy\",\r\n  \"password\": \"gingerMeow\",\r\n  \"email\": \"SquashyGG@catmail.com\",\r\n  \"birthdate\": \"2023-06-24\",\r\n  \"roles\": [\"ADMIN\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3555/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3555",
+					"path": [
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
